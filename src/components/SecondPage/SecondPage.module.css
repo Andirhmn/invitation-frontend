@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yuji+Syuku&display=swap');
+
+.secondPage {
+  background: url("./assets/foto/kembang.jpg");
+  background-size: cover;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+
+  max-width: 1320px;
+  height: 100vh;
+}
+
+.akad {
+  padding-bottom: 24px;
+}
+
+.akad p {
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 1px;
+  margin: 0px;
+}
+
+.akad h1 { 
+  font-size: 32px;
+  font-family: "Dancing Script", cursive;
+  text-shadow: 1px 1px black;
+}
+
+.resepsi {
+}
+
+.resepsi p {
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 1px;
+  margin: 0px;
+}
+
+.resepsi h1 {
+  font-size: 32px;
+  font-family: "Dancing Script", cursive;
+  text-shadow: 1px 1px black;
+}
+
+.countDown  {
+  margin-top: 36px;
+  font-family: 'Yuji Syuku', serif;
+  letter-spacing: 1px;
+  font-size: 20px;
+  background-color: rgba(0, 15, 0, 0.2);
+  border: none;
+  border-radius: 6px;
+}
