@@ -69,7 +69,7 @@ const ThirdPage = () => {
 
 	    <Form.Group>
 	      <Form.Select className="mb-2" onChange={(e) => setKehadiran(e.target.value)} >
-	  	<option>Konfirmasi Kehadiran</option>
+	  	<option value="">Konfirmasi Kehadiran</option>
 	  	<option value="Hadir">Hadir</option>
 	  	<option value="Tidak_Hadir">Tidak_Hadir</option>
 	      </Form.Select>
